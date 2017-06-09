@@ -1,4 +1,4 @@
-update=5/27/2017 6:07:32 PM
+update=6/9/2017 3:15:33 PM
 version=1
 last_client=kicad
 [cvpcb]
@@ -121,3 +121,13 @@ LibName89=xilinx
 LibName90=zetex
 LibName91=Zilog
 LibName92=C:/KiCadLibs/CustomComponents
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
