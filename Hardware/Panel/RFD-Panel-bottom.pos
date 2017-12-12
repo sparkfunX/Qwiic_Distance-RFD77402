@@ -1,0 +1,15 @@
+### Module positions - created on 12/12/17 10:15:27 ###
+### Printed by Pcbnew version kicad 4.0.6
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val           Package                PosX       PosY       Rot  Side
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       64.5160    22.8600  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       38.6080    22.8600  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       12.7000    22.8600  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       64.5160    48.7680  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       38.6080    48.7680  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       12.7000    48.7680  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       64.5160    74.6760  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       38.6080    74.6760  180.0000  bottom
+U3        SPARKX-LOGO4  SPARKX-MEDIUM       12.7000    74.6760  180.0000  bottom
+## End

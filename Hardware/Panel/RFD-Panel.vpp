@@ -1,0 +1,57 @@
+[Config]
+gerber-origin-top=-127.942000 -91.821000 mm
+gerber-origin-bottom=-137.541000 -91.821000 mm
+origin=1.1326 -3.0174 inch
+gerber-rotate=0
+outline=15.0000 mil
+mirror-bottom=0
+dpi=600
+margins-top=9.5990 0.0000 0.0310 6.7420 mm
+margins-bottom=0.0000 0.0000 0.0000 0.0000 mm
+margins-adjusted=1
+silk-top=86.0950 83.2590 mm
+silk-bottom=76.4650 76.5170 mm
+dpi-top=600.0000
+dpi-bottom=600.0000
+format=kicad (KiCad)
+[Files]
+silk-top=RFD-Panel-F.SilkS.gto
+silk-bottom=
+gerber-edge=RFD-Panel-F.Cu.gtl
+mask-top=
+mask-bottom=
+drillfile=
+pos-top=RFD-Panel-top.pos
+pos-bottom=
+bom=
+[File-CRC]
+silk-top=238042b
+gerber-edge=449405dd
+pos-top=e989516
+[Outline-top]
+count=0
+[Outline-bottom]
+count=0
+[Cache]
+crc-top=238042b
+silk-top=vptgf-RFD-Panel.vpp-238042b.png
+dpi-top=600.0
+[Fiducials]
+fid1=1 1 -0.0626 1.0651
+fid2=1 1 0.9574 0.0451
+fid3=1 1 -0.0626 0.0451
+fid4=1 1 -1.0826 0.0451
+fid5=1 1 0.9574 1.0651
+fid6=1 1 -1.0826 1.0651
+fid7=1 1 0.9574 2.0851
+fid8=1 1 -0.0626 2.0851
+fid9=1 1 -1.0826 2.0851
+fid10=1 1 0.6874 0.9551
+fid11=1 1 -0.3326 0.9551
+fid12=1 1 1.7074 1.9751
+fid13=1 1 1.7074 0.9551
+fid14=1 1 1.7074 2.9951
+fid15=1 1 0.6874 1.9751
+fid16=1 1 -0.3326 1.9751
+fid17=1 1 0.6874 2.9951
+fid18=1 1 -0.3326 2.9951

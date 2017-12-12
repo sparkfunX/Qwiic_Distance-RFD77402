@@ -1,19 +1,96 @@
 EESchema Schematic File Version 2
-LIBS:power
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
 LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
 LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
 LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
 LIBS:mechanical
-LIBS:SparkFun-LED
-LIBS:SparkFun-Clocks
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-Batteries
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Coils
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Electromechanical
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:SparkX
 LIBS:RFD77402 ToF Sensor-cache
 EELAYER 25 0
 EELAYER END
@@ -477,14 +554,14 @@ Wire Wire Line
 Wire Wire Line
 	4150 2800 4150 2900
 $Comp
-L SPEAKER LS?
-U 1 1 592B0F77
-P 2950 1900
-F 0 "LS?" H 2960 2110 50  0000 L BNN
-F 1 "SPEAKER" H 2735 1640 50  0000 L BNN
-F 2 "" H 2950 1900 60  0001 C CNN
-F 3 "" H 2950 1900 60  0001 C CNN
-	1    2950 1900
+L I2C_Standard_PTH_Connector J?
+U 1 1 593F72A4
+P 2950 4600
+F 0 "J?" H 2850 4810 50  0000 L BNN
+F 1 "I2C_Standard_PTH_Connector" H 2460 4320 50  0000 L BNN
+F 2 "" H 2930 4700 20  0001 C CNN
+F 3 "" H 2900 4550 60  0001 C CNN
+	1    2950 4600
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

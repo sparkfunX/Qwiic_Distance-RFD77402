@@ -1,0 +1,16 @@
+# Created by VisualPlace version 2.1.5666 at Tue Dec 12 10:20:25 2017
+# Report origin: (0.0/0.0) = lower left corner of PCB
+# Units: inch
+"Designator","Value","X","Y","Rotation","Side","Package"
+
+"C1","0.1uF","-4.8021","9.1733","180.0","Top","0603"
+"C2","4.7uF","-3.6421","9.1733","0.0","Top","0603"
+"R1","4.7k","-2.5371","8.5033","270.0","Top","0603"
+"R2","4.7k","-3.8571","9.5233","270.0","Top","0603"
+"U4","CC_LICENSE","-4.8571","8.5533","0.0","Top","CREATIVE_COMMONS"
+"U1","RFD77402","-2.6871","9.3733","0.0","Top","RFD77402"
+"U2","SPARKX-LOGO4","-3.7071","9.7733","0.0","Top","SPARKX-MEDIUM"
+"J1","Qwiic_Connector","-4.0071","7.3333","270.0","Top","1X04_1MM_RA"
+"J2","Qwiic_Connector","-4.4271","8.3533","90.0","Top","1X04_1MM_RA"
+"JP1","JUMPER-SMT_3_2-NC_PASTE_SILK","-4.7271","9.5233","0.0","Top","SMT-JUMPER_3_2-NC_PASTE_SILK"
+"LOGO1","SPARKFUN-AESTHETICS_OSHW-LOGOS","-3.0871","6.9833","0.0","Top","OSHW-LOGO-MINI"

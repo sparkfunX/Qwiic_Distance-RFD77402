@@ -1,24 +1,97 @@
 EESchema Schematic File Version 2
-LIBS:power
+LIBS:RFD77402 ToF Sensor-rescue
+LIBS:74xgxx
+LIBS:74xx
+LIBS:ac-dc
+LIBS:actel
+LIBS:adc-dac
+LIBS:allegro
+LIBS:Altera
+LIBS:analog_devices
+LIBS:analog_switches
+LIBS:atmel
+LIBS:audio
+LIBS:battery_management
+LIBS:bbd
+LIBS:bosch
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:cmos4000
 LIBS:conn
+LIBS:contrib
+LIBS:cypress
+LIBS:dc-dc
 LIBS:device
+LIBS:digital-audio
+LIBS:diode
+LIBS:display
+LIBS:dsp
+LIBS:elec-unifil
+LIBS:ESD_Protection
+LIBS:ftdi
+LIBS:gennum
+LIBS:graphic
+LIBS:hc11
+LIBS:intel
+LIBS:interface
+LIBS:ir
+LIBS:Lattice
 LIBS:leds
+LIBS:linear
+LIBS:logo
+LIBS:maxim
 LIBS:mechanical
-LIBS:SparkFun-LED
-LIBS:SparkFun-Clocks
-LIBS:SparkFun-Aesthetics
-LIBS:SparkFun-Batteries
-LIBS:SparkFun-Boards
-LIBS:SparkFun-Capacitors
-LIBS:SparkFun-Coils
-LIBS:SparkFun-Connectors
-LIBS:SparkFun-DiscreteSemi
-LIBS:SparkFun-Electromechanical
-LIBS:SparkFun-Fuses
-LIBS:SparkFun-GPS
-LIBS:SparkFun-Hardware
-LIBS:SparkFun-IC-Amplifiers
-LIBS:SparkFun-Jumpers
+LIBS:memory
+LIBS:microchip
+LIBS:microchip_dspic33dsc
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:microchip_pic18mcu
+LIBS:microchip_pic24mcu
+LIBS:microchip_pic32mcu
+LIBS:microcontrollers
+LIBS:modules
+LIBS:motor_drivers
+LIBS:motorola
+LIBS:motors
+LIBS:msp430
+LIBS:nordicsemi
+LIBS:nxp
+LIBS:nxp_armmcu
+LIBS:onsemi
+LIBS:opto
+LIBS:Oscillators
+LIBS:philips
+LIBS:power
+LIBS:Power_Management
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:regul
+LIBS:relays
+LIBS:rfcom
+LIBS:sensors
+LIBS:silabs
+LIBS:siliconi
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:switches
+LIBS:texas
+LIBS:transf
+LIBS:transistors
+LIBS:triac_thyristor
+LIBS:ttl_ieee
+LIBS:valves
+LIBS:video
+LIBS:wiznet
+LIBS:Worldsemi
+LIBS:Xicor
+LIBS:xilinx
+LIBS:zetex
+LIBS:Zilog
+LIBS:SparkX
 LIBS:RFD77402 ToF Sensor-cache
 EELAYER 25 0
 EELAYER END
@@ -97,11 +170,11 @@ Wire Wire Line
 Wire Wire Line
 	6450 2250 6450 2450
 Wire Wire Line
-	6450 2250 6400 2250
+	6350 2250 6450 2250
 Wire Wire Line
 	5950 2250 5950 2450
 Wire Wire Line
-	5950 2250 6000 2250
+	5950 2250 6050 2250
 Wire Wire Line
 	5850 2800 6650 2800
 Wire Wire Line
@@ -316,7 +389,7 @@ F 3 "" H 6200 1950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6200 1950 6200 2050
+	6200 1950 6200 2100
 $Comp
 L Qwiic_Connector J1
 U 1 1 59076580
@@ -349,17 +422,6 @@ F 2 "SparkFun-Resistors:0603" H 5950 2550 50  0001 C CNN
 F 3 "" H 5950 2550 50  0001 C CNN
 	1    5950 2550
 	1    0    0    -1  
-$EndComp
-$Comp
-L JUMPER-SMT_3_2-NC_PASTE_SILK JP1
-U 1 1 59082286
-P 6200 2250
-F 0 "JP1" V 6050 2300 45  0000 L BNN
-F 1 "JUMPER-SMT_3_2-NC_PASTE_SILK" V 6100 2400 45  0000 L BNN
-F 2 "SparkFun-Jumpers:SMT-JUMPER_3_2-NC_PASTE_SILK" H 6230 2400 20  0001 C CNN
-F 3 "" H 6200 2250 60  0001 C CNN
-	1    6200 2250
-	0    1    1    0   
 $EndComp
 $Comp
 L I2C_Standard_PTH_Connector J4
@@ -481,4 +543,26 @@ Wire Wire Line
 	4150 3100 4150 3200
 Wire Wire Line
 	4150 2800 4150 2900
+$Comp
+L I2C_Standard_PTH_Connector J?
+U 1 1 593F72A4
+P 2950 4600
+F 0 "J?" H 2850 4810 50  0000 L BNN
+F 1 "I2C_Standard_PTH_Connector" H 2460 4320 50  0000 L BNN
+F 2 "" H 2930 4700 20  0001 C CNN
+F 3 "" H 2900 4550 60  0001 C CNN
+	1    2950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L JUMPER-SMT_3_2-NC_PASTE_SILK JP?
+U 1 1 593F0A1A
+P 6200 2250
+F 0 "JP?" V 6100 2400 50  0000 L BNN
+F 1 "JUMPER-SMT_3_2-NC_PASTE_SILK" V 6150 2400 50  0000 L BNN
+F 2 "" H 6200 2250 60  0001 C CNN
+F 3 "" H 6200 2250 60  0001 C CNN
+	1    6200 2250
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
